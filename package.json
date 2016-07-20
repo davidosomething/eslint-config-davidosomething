@@ -2,6 +2,14 @@
   "name": "eslint-config-davidosomething",
   "version": "1.0.2",
   "description": "@davidosomething's personal eslint config",
+  "homepage": "https://github.com/davidosomething/eslint-config-davidosomething",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidosomething/eslint-config-davidosomething.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidosomething/eslint-config-davidosomething/issues"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +19,12 @@
     "eslintconfig"
   ],
   "author": "David O'Trakoun <me@davidosomething.com> (https://davidosomething.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-plugin-jsdoc": "^2.3.1",
+    "eslint-plugin-import": "^1.11.1"
+  }
 }
