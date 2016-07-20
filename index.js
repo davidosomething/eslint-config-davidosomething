@@ -52,7 +52,7 @@ module.exports = {
 			2,
 			20
 		],
-		"consistent-return": null,
+		"consistent-return": 0,
 		"dot-location": [
 			1,
 			"property"
