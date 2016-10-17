@@ -1,5 +1,7 @@
 module.exports = {
+
   "extends": "eslint:recommended",
+
   "rules": {
     "arrow-body-style": [
       2,
@@ -78,7 +80,12 @@ module.exports = {
       2,
       3
     ],
-    "new-cap": 2,
+    "new-cap": [
+      2,
+      {
+        "properties": false, // E.g. $.Deferred()
+      }
+    ],
     "new-parens": 2,
     "no-alert": 2,
     "no-caller": 2,
@@ -138,7 +145,7 @@ module.exports = {
     "no-underscore-dangle": 0,
     "no-unexpected-multiline": 2,
     "no-unreachable": 2,
-    "no-use-before-define": 2,
+    "no-use-before-define": 1,
     "no-unused-vars": [
       2,
       {
@@ -204,12 +211,14 @@ module.exports = {
         "requireReturn": false,
         "requireReturnDescription": false,
         "preferType": {
-          "string": "String",
-          "object": "Object",
-          "number": "Number",
+          "bool":    "Boolean",
+          "boolean": "Boolean",
+          "float":   "Number",
+          "int":     "Number",
           "integer": "Number",
-          "float": "Number",
-          "int": "Number"
+          "number":  "Number",
+          "object":  "Object",
+          "string":  "String",
         }
       }
     ],
