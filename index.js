@@ -5,7 +5,7 @@ module.exports = {
   "rules": {
     "arrow-body-style": [
       2,
-      "always"
+      "as-needed"
     ],
     "arrow-parens": [
       2,
