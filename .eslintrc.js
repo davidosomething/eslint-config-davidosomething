@@ -1,5 +1,5 @@
 module.exports = {
   'extends': [
-    './lib/defaults.js',
+    './lib/node.js',
   ],
 };
