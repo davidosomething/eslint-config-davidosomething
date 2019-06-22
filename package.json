@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-davidosomething",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "@davidosomething's personal eslint config",
   "homepage": "https://github.com/davidosomething/eslint-config-davidosomething",
   "repository": {
