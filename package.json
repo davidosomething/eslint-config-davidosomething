@@ -21,12 +21,11 @@
   ],
   "author": "David O'Trakoun <me@davidosomething.com> (https://davidosomething.com/)",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.12.1",
-    "eslint-find-rules": "^3.6.1"
+    "eslint": "^8.24.0",
+    "eslint-find-rules": "^4.1.0"
   },
   "peerDependencies": {
-    "eslint": "^7.12.1"
+    "eslint": ">=8"
   }
 }
