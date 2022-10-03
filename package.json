@@ -12,8 +12,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "npx eslint index.js",
-    "unused": "npx eslint-find-rules --unused"
+    "find-deprecated": "npx eslint-find-rules --deprecated",
+    "test": "npx eslint lib/defaults.js lib/node.js index.js",
+    "find-unused": "npx eslint-find-rules --unused"
   },
   "keywords": [
     "eslint",
